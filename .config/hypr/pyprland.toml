@@ -1,0 +1,25 @@
+[pyprland]
+plugins = [
+ "expose",
+ "scratchpads",
+ "toggle_special",
+]
+
+# using variables for demonstration purposes (not needed)
+[pyprland.variables]
+term_classed = "kitty --class"
+
+[scratchpads.btop]
+animation = "fromTop"
+command = "[term_classed] main-dropterm btop"
+class = "main-dropterm"
+size = "75% 75%"
+max_size = "1920px 100%"
+lazy = true
+
+[scratchpads.term]
+animation = "fromTop"
+command = "[term_classed] main-dropterm"
+class = "main-dropterm"
+size = "75% 60%"
+max_size = "1920px 100%"
