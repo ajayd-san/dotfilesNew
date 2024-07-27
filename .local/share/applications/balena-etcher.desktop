@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Balena Etcher
+Exec=/home/default/other/appimg/balenaEtcher-1.18.11-x64.AppImage
+Type=Application
+Categories=flasher;
+MimeType=x-scheme-handler/etcher;

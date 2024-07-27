@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Chatgpt
+Comment=Judgement day is riyal
+Exec=brave --app=https://chat.openai.com
+Icon=~/other/logos/openai.png
+Categories=chatgpt,ai,terminator;
